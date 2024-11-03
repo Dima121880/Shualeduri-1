@@ -40,6 +40,10 @@ li {
   border: 1px;
   border-radius: 100px;
 }
+.Location {
+  /* display: flex; */
+}
+
 .conteiner {
   background-color: #f8f8f8;
   max-width: 395px;
@@ -240,4 +244,57 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: -30px;
+}
+
+@media (max-width: 1024px) {
+  header nav {
+    display: none;
+  }
+  .Locations {
+    display: flex;
+    flex-direction: column;
+    margin-top: -500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-1 {
+    max-width: 335px;
+    transform: translate(-390px, -500px);
+  }
+  .conteiner {
+    margin-top: 400px;
+  }
+  .one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    max-width: 275px;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .parent-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .social-medea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -150px;
+  }
+  .support {
+    display: none;
+  }
 }
