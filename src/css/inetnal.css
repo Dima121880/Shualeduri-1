@@ -46,7 +46,7 @@ li {
 }
 
 .image {
-  max-width: 660px;
+  max-width: 645px;
   max-height: 732px;
   border-radius: 20px 0px 0px 0px;
 }
@@ -112,53 +112,56 @@ h4 {
   color: #000000;
 }
 
-.parent-ul {
-  display: block;
+.property {
+  display: flex;
+  justify-content: space-between;
+}
+.Facilities h6 {
+  max-width: 133px;
+  max-height: 208px;
+  opacity: 1;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
 }
 
-.li-3 {
-  max-width: 103px;
-  max-height: 23px;
-  opacity: 0.6px;
-  font-family: Poppins;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 23px;
-  text-align: left;
-  color: #000000;
+.frice-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
-.li-4 {
-  max-width: 93px;
-  max-height: 23px;
-  opacity: 0.8px;
+.frise-content {
+  max-width: 170px;
+  max-height: 54px;
   font-family: Poppins;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 23px;
-  text-align: left;
-  color: #000000;
+  font-size: 24px;
+  margin: 0 20px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: right;
+  color: #29b24e;
 }
-.li-5 {
-  max-width: 59px;
-  max-height: 23px;
-  opacity: 0.6px;
-  font-family: Poppins;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 23px;
-  text-align: left;
-  color: #000000;
+.send {
+  max-width: 153px;
+  max-height: 65px;
+  padding: 13px 26px 13px 26px;
+  gap: 10px;
+  border-radius: 12px 0px 0px 0px;
+  margin-left: 170px;
+
+  border: 1px solid #29b24e;
 }
-.li-6 {
-  max-width: 77px;
-  max-height: 23px;
-  opacity: 0.8px;
-  font-family: Poppins;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 23px;
-  text-align: left;
-  color: #000000;
+.call {
+  max-width: 80px;
+  max-height: 47px;
+  top: 803px;
+  left: 1660px;
+  padding: 13px 26px 13px 26px;
+  gap: 10px;
+  border-radius: 12px;
+  opacity: 0px;
+  background-color: #29b24e;
 }
 
 .one {
