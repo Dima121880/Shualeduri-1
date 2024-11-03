@@ -111,3 +111,155 @@ h4 {
   text-align: left;
   color: #000000;
 }
+
+.parent-ul {
+  display: block;
+}
+
+.li-3 {
+  max-width: 103px;
+  max-height: 23px;
+  opacity: 0.6px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  color: #000000;
+}
+.li-4 {
+  max-width: 93px;
+  max-height: 23px;
+  opacity: 0.8px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: left;
+  color: #000000;
+}
+.li-5 {
+  max-width: 59px;
+  max-height: 23px;
+  opacity: 0.6px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  color: #000000;
+}
+.li-6 {
+  max-width: 77px;
+  max-height: 23px;
+  opacity: 0.8px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: left;
+  color: #000000;
+}
+
+.one {
+  display: flex;
+  transform: translateY(70px);
+  gap: 50px;
+}
+
+.card {
+  max-width: 363px;
+  max-height: 502px;
+}
+
+.card-title {
+  max-width: 303px;
+  max-height: 24px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+  padding-bottom: 30px;
+}
+
+.card-text {
+  max-width: 131px;
+  max-height: 21px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #000000;
+}
+
+h6 {
+  max-width: 120px;
+  max-height: 27px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  color: #000000;
+  padding-top: 50px;
+}
+.card-div {
+  width: 124px;
+  height: 36px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: right;
+  margin: 0 130px;
+  color: #29b24e;
+}
+
+footer {
+  background-color: #29b24e;
+  max-width: 1920px;
+  height: 300px;
+  width: 100%;
+  border-radius: 25px 0px 0px 0px;
+  box-shadow: 0px 4px 25px 0px #c2c2c21a;
+  transform: translateY(300px);
+}
+
+.parent-footer {
+  display: flex;
+  text-decoration: dashed;
+  margin: 20 50px;
+  gap: 10px;
+  padding: 20px;
+}
+
+.support {
+  padding: 0 30%;
+  margin-top: 30px;
+}
+
+.social-medea {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  gap: 15px;
+  margin-top: -40px;
+}
+
+.footer-line {
+  max-width: 1640px;
+  max-height: 1px;
+  margin: 50px;
+  border: 1px solid #d0d0d0;
+  margin-top: 100px;
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+}
