@@ -41,7 +41,7 @@ li {
   border-radius: 100px;
 }
 .Location {
-  /* display: flex; */
+  display: flex;
 }
 
 .conteiner {
@@ -68,7 +68,7 @@ h5 {
   max-width: 749px;
   max-height: 72px;
   font-family: Poppins;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 600;
   line-height: 72px;
   text-align: left;
@@ -89,7 +89,7 @@ h5 {
   max-width: 336px;
   max-height: 24px;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
@@ -152,7 +152,7 @@ h5 {
   max-width: 303px;
   max-height: 24px;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   line-height: 24px;
   text-align: left;
@@ -164,7 +164,7 @@ h5 {
   max-width: 131px;
   max-height: 21px;
   font-family: Poppins;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 21px;
   text-align: left;
@@ -186,12 +186,26 @@ h6 {
   width: 124px;
   height: 36px;
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 36px;
   text-align: right;
   margin: 0 130px;
   color: #29b24e;
+}
+
+.content {
+  display: flex;
+  font-size: 14px;
+}
+
+.content div {
+  padding: 10px;
+}
+.border {
+  max-width: 395px;
+  max-height: 1px;
+  color: #cfead6;
 }
 
 .two {
@@ -251,7 +265,6 @@ footer {
     display: none;
   }
   .Locations {
-    display: flex;
     flex-direction: column;
     margin-top: -500px;
     display: flex;
@@ -259,8 +272,36 @@ footer {
     align-items: center;
   }
   .img-1 {
-    max-width: 335px;
+    max-width: 400px;
+    max-height: 400px;
     transform: translate(-390px, -500px);
+  }
+
+  .image-p {
+    max-width: 241px;
+    max-height: 72px;
+    position: absolute;
+    transform: translateX(-450px);
+    top: 190px;
+
+    font-size: 24px;
+  }
+
+  .image-p-2 {
+    transform: translate(-600px, -850px);
+    max-width: 294px;
+    max-height: 21px;
+    font-family: Poppins;
+    font-size: 14 px;
+  }
+  .img-div {
+    display: none;
+  }
+  .img-div2 {
+    display: none;
+  }
+  .Frame {
+    display: none;
   }
   .conteiner {
     margin-top: 400px;
@@ -279,10 +320,7 @@ footer {
   }
 
   footer {
-    max-width: 275px;
-
-    justify-content: center;
-    align-items: center;
+    max-width: 800px;
   }
   .parent-footer {
     display: flex;
